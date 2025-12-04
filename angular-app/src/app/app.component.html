@@ -1,0 +1,11 @@
+<main class="main">
+    <h1 style="text-align: center;">{{ appName }}</h1>
+</main>
+
+<section class="components">
+    <app-random [max]="50"></app-random>
+    <app-random [max]="100"></app-random>
+    <app-list></app-list>
+</section>
+
+<router-outlet />

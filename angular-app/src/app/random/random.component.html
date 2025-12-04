@@ -1,0 +1,12 @@
+<div class="random-component">
+  <h2>Random Number</h2>
+	<p>
+    Random <span style="font-style: italic;">[1...{{ max }}]</span>: <strong>{{ randomNumber }}</strong>
+  </p>
+
+  <p [style.color]="commentColor">
+    {{ comment }}
+  </p>
+
+  <button (click)="generateRandom()">Generate</button>
+</div>

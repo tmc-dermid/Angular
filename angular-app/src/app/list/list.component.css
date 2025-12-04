@@ -1,0 +1,9 @@
+.list-component {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    margin-left: 10px;
+}
